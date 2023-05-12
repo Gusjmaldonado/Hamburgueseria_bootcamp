@@ -55,4 +55,13 @@ header .nav-top a {
     text-decoration: none;
 }
 
+header .nav-top a i {
+    font-size: 150%;
+}
+
+header .nav-top span {
+    color: white;
+    display: none;
+}
+
 /* fin de header */
