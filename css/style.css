@@ -64,6 +64,49 @@ header .nav-top span {
     display: none;
 }
 
+header nav {
+    padding: 1.25em;
+
+}
+
+header nav .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header nav .menu {
+    width: 100%;
+}
+
+header nav .hamburguesa {
+    cursor: pointer;
+    width: 1.875em;
+}
+
+header nav .hamburguesa div {
+    border-top: 2px solid #aaa;
+    margin-bottom: 0.625em;
+}
+
+header nav figure {
+    max-width: 6.25em;
+}
+
+header nav .menu a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    padding: 1.25em;
+    color: #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+header nav .menu li:last-child a {
+    border-bottom: 0px;
+}
+
 /* fin de header */
 
 
@@ -76,5 +119,29 @@ header .nav-top span {
 
     header .nav-top span {
         display: inline;
+    }
+
+    header .nav-top .container {
+        justify-content: space-between;
+    }
+}
+
+
+@media(min-width: 62.75em) {
+    header nav .menu {
+        width: auto;
+    }
+
+    header nav .hamburguesa {
+        display: none;
+    }
+
+    header nav .menu {
+        display: inline;
+    }
+
+    header nav .menu a {
+        padding: 0.5em 0 1.25em 1.25em;
+        border-bottom: 0px;
     }
 }
