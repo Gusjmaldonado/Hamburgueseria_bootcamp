@@ -269,6 +269,47 @@ main section .enlace {
 
 
 /* fin our services */
+/* inicio about us */
+
+main #aboutus figure {
+    width: 100%;
+}
+
+main #aboutus .grid>div {
+    width: 100%;
+}
+
+main #aboutus .grid h3 {
+    font-size: 110%;
+    font-weight: 700;
+}
+
+main #aboutus .grid h4 {
+    margin: var(--margingrid) 0;
+    color: var(--colorprincipal);
+}
+
+main #aboutus .imagen {
+    margin: 1.5em auto;
+    width: 95%;
+}
+
+main #aboutus div .imagen .marco {
+    border: 3px solid var(--colorprincipal);
+    transform: rotateZ(10deg);
+    transition: 1s;
+}
+
+main #aboutus div .imagen .marco img {
+    transform: rotateZ(-10deg);
+    transition: 1s;
+}
+
+main #aboutus .imagen:hover :is(.marco, .marco img) {
+    transform: rotateZ(0);
+}
+
+/* fin about us */
 /* inicio main blog */
 /* section {
     padding: 1.25em 0px;
@@ -365,6 +406,21 @@ footer a:hover {
     main #services article:last-child {
         width: 100%;
     }
+
+    main #aboutus figure,
+    main #aboutus .grid>div {
+        width: 50%;
+    }
+
+    main #aboutus .grid h3 {
+        margin-top: var(--margingrid);
+    }
+
+    main #aboutus .imagen {
+        margin: var(--margingrid) 0 2em 0;
+
+    }
+
 }
 
 
