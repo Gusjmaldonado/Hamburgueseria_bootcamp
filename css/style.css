@@ -190,6 +190,10 @@ footer a:hover {
     header .nav-top .container {
         justify-content: space-between;
     }
+
+    footer {
+        text-align: left;
+    }
 }
 
 
