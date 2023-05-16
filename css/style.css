@@ -187,18 +187,94 @@ header nav .menu li:last-child a {
 
 /* fin hero */
 
-/* inicio main index */
+/* inicio our services */
+
+main section {
+    padding: 2.125em var(--margingrid);
+}
+
+main section h2 {
+    color: black;
+    font-family: var(--fuentetitulos);
+    font-size: 2em;
+    text-align: center;
+}
+
+main section h2 span {
+    color: var(--colorprincipal);
+}
+
+main section .underline {
+    position: relative;
+    width: 6.25rem;
+    margin: 0 auto;
+}
+
+main section .underline hr {
+    position: absolute;
+    width: 100%;
+    top: -2px;
+    border-color: var(--colorprincipal);
+}
+
+main section .underline span {
+    text-align: center;
+    display: block;
+    color: var(--colorprincipal);
+    font-weight: bold;
+}
+
+main section .grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section:last-child {
+    margin-bottom: 3em;
+}
+
+main #services article {
+    border-bottom: 1px solid #aaa;
+    padding: 1.5em 0;
+}
+
+main #services article>div i {
+    color: var(--colorprincipal);
+    font-size: 140%;
+    border: 1px solid var(--colorprincipal);
+    padding: 0.5em;
+}
+
+main #services article h3 {
+    margin: var(--margingrid) 0;
+    font-size: 110%;
+    font-weight: 700;
+}
+
+main section p {
+    color: #666;
+    line-height: 1.15em;
+    margin-bottom: var(--margingrid);
+}
+
+main section .enlace {
+    text-decoration: none;
+    color: var(--colorprincipal);
+    font-weight: 700;
+}
+
+.fa-truck {
+    transform: rotateY(180deg);
+}
 
 
-
-/* fin main index */
+/* fin our services */
 /* inicio main blog */
-
-section {
+/* section {
     padding: 1.25em 0px;
 }
 
-section .container {
+#blog section .container {
     display: flex;
     flex-wrap: wrap;
 }
@@ -222,7 +298,7 @@ section article p {
     color: #aaa;
 }
 
-
+ */
 
 /* fin main blog */
 
@@ -277,6 +353,18 @@ footer a:hover {
     footer {
         text-align: left;
     }
+
+    main #services article {
+        width: 50%;
+        border-bottom: 0px;
+        border-left: 1px solid #aaa;
+        padding: 1.5em;
+        margin: var(--margingrid) 0;
+    }
+
+    main #services article:last-child {
+        width: 100%;
+    }
 }
 
 
@@ -300,6 +388,14 @@ footer a:hover {
 
     .hero .container {
         padding: 0;
+    }
+
+    main #services article {
+        width: 33.333%;
+    }
+
+    main #services article:last-child {
+        width: 33.333%;
     }
 
 }
