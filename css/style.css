@@ -323,25 +323,27 @@ main #aboutus .imagen:hover :is(.marco, .marco img) {
     border: 15px solid white;
 }
 
-.ourblog article figure {
+.ourblog figure {
     display: flex;
 }
 
-.ourblog article div {
+.ourblog figure div {
     background-color: var(--colorprincipal);
+    opacity: 85%;
     position: absolute;
+    width: 60px;
+    height: 60px;
     text-align: center;
-    opacity: 0.5;
+    font-size: 110%;
+    padding: 10px;
+    color: white;
 }
 
-.ourblog article div p {
-    color: white;
-    opacity: 1;
-
+.container .ourblog :is(h3, h4, p, a) {
+    margin: 10px;
 }
 
 .ourblog article h3 {
-    padding: 10px;
     font-size: 110%;
     font-weight: 700;
 }
@@ -349,6 +351,7 @@ main #aboutus .imagen:hover :is(.marco, .marco img) {
 .ourblog article h4 {
     margin: var(--margingrid) 0;
     color: var(--colorprincipal);
+    font-weight: 700;
 }
 
 
