@@ -310,38 +310,6 @@ main #aboutus .imagen:hover :is(.marco, .marco img) {
 }
 
 /* fin about us */
-/* inicio main blog */
-/* section {
-    padding: 1.25em 0px;
-}
-
-#blog section .container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-section article {
-    width: 50%;
-    border: 10px solid white;
-    justify-content: space-between;
-}
-
-section article h2 {
-    margin-top: 20px;
-}
-
-section article h3 {
-    margin: 10px 0 10px 0;
-    color: var(--colorprincipal);
-}
-
-section article p {
-    color: #aaa;
-}
-
- */
-
-/* fin main blog */
 
 
 /* inicio footer */
