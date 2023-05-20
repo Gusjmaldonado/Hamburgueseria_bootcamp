@@ -311,6 +311,52 @@ main #aboutus .imagen:hover :is(.marco, .marco img) {
 
 /* fin about us */
 
+/* inicio our blogs */
+
+.container .ourblog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ourblog article {
+    width: 50%;
+    border: 15px solid white;
+}
+
+.ourblog article figure {
+    display: flex;
+}
+
+.ourblog article div {
+    background-color: var(--colorprincipal);
+    position: absolute;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.ourblog article div p {
+    color: white;
+    opacity: 1;
+
+}
+
+.ourblog article h3 {
+    padding: 10px;
+    font-size: 110%;
+    font-weight: 700;
+}
+
+.ourblog article h4 {
+    margin: var(--margingrid) 0;
+    color: var(--colorprincipal);
+}
+
+
+
+
+
+
+/* fin our blogs */
 
 /* inicio footer */
 footer {
