@@ -310,39 +310,56 @@ main #aboutus .imagen:hover :is(.marco, .marco img) {
 }
 
 /* fin about us */
-/* inicio main blog */
-/* section {
-    padding: 1.25em 0px;
-}
 
-#blog section .container {
+/* inicio our blogs */
+
+.container .ourblog {
     display: flex;
     flex-wrap: wrap;
 }
 
-section article {
+.ourblog article {
     width: 50%;
-    border: 10px solid white;
-    justify-content: space-between;
+    border: 15px solid white;
 }
 
-section article h2 {
-    margin-top: 20px;
+.ourblog figure {
+    display: flex;
 }
 
-section article h3 {
-    margin: 10px 0 10px 0;
+.ourblog figure div {
+    background-color: var(--colorprincipal);
+    opacity: 85%;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 110%;
+    padding: 10px;
+    color: white;
+}
+
+.container .ourblog :is(h3, h4, p, a) {
+    margin: 10px;
+}
+
+.ourblog article h3 {
+    font-size: 110%;
+    font-weight: 700;
+}
+
+.ourblog article h4 {
+    margin: var(--margingrid) 0;
     color: var(--colorprincipal);
+    font-weight: 700;
 }
 
-section article p {
-    color: #aaa;
-}
 
- */
 
-/* fin main blog */
 
+
+
+/* fin our blogs */
 
 /* inicio footer */
 footer {
@@ -452,6 +469,11 @@ footer a:hover {
 
     main #services article:last-child {
         width: 33.333%;
+    }
+
+    .ourblog article {
+        width: 33.333%;
+        border: 15px solid white;
     }
 
 }
