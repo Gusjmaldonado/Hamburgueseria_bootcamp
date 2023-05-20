@@ -468,4 +468,9 @@ footer a:hover {
         width: 33.333%;
     }
 
+    .ourblog article {
+        width: 33.333%;
+        border: 15px solid white;
+    }
+
 }
