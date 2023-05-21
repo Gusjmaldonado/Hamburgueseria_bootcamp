@@ -329,7 +329,7 @@ main #aboutus .imagen:hover :is(.marco, .marco img) {
 
 .ourblog figure div {
     background-color: var(--colorprincipal);
-    opacity: 85%;
+    background-blend-mode: multiply;
     position: absolute;
     width: 60px;
     height: 60px;
