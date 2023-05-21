@@ -328,8 +328,7 @@ main #aboutus .imagen:hover :is(.marco, .marco img) {
 }
 
 .ourblog figure div {
-    background-color: var(--colorprincipal);
-    background-blend-mode: multiply;
+    background-color: rgba(250, 87, 58, 0.6);
     position: absolute;
     width: 60px;
     height: 60px;
@@ -376,6 +375,8 @@ main #aboutus .imagen:hover :is(.marco, .marco img) {
     width: 100%;
     background-color: transparent;
     height: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 .lista li {
@@ -553,17 +554,25 @@ footer a:hover {
 
     #menu .grid .bloque2 {
         width: 70%;
+
     }
 
     #menu .bloque2 article {
         display: flex;
+        padding: 30px 30px;
+        height: 150px;
 
     }
 
     #menu .bloque2 figure {
-        padding: 20px;
+        padding-right: 20px;
         height: 200px;
         width: 200px;
+        text-align: center;
+    }
+
+    #menu .bloque1 .offers {
+        padding-top: 100px;
     }
 
 
