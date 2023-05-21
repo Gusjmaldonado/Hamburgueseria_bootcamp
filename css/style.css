@@ -540,4 +540,31 @@ footer a:hover {
         border: 15px solid white;
     }
 
+
+    #menu .container .grid {
+        display: flex;
+
+    }
+
+    #menu .grid .bloque1 {
+        width: 30%;
+
+    }
+
+    #menu .grid .bloque2 {
+        width: 70%;
+    }
+
+    #menu .bloque2 article {
+        display: flex;
+
+    }
+
+    #menu .bloque2 figure {
+        padding: 20px;
+        height: 200px;
+        width: 200px;
+    }
+
+
 }
