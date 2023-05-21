@@ -354,12 +354,43 @@ main #aboutus .imagen:hover :is(.marco, .marco img) {
     font-weight: 700;
 }
 
-
-
-
-
-
 /* fin our blogs */
+
+/* inicio menu */
+
+#menu {
+    background-color: var(--colorsecundario);
+}
+
+#menu .container :is(h2, a, h3, p) {
+    color: white;
+}
+
+.container .lista {
+    padding: 30px 10px;
+}
+
+.lista a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    background-color: transparent;
+    height: 30px;
+    font-size: 110%;
+}
+
+.lista li {
+    margin-left: 10px;
+}
+
+.lista a:hover {
+    background-color: var(--colorprincipal);
+    border-radius: 5px;
+}
+
+
+
+/* fin menu */
 
 /* inicio footer */
 footer {
