@@ -210,7 +210,7 @@ main section .underline {
     margin: 0 auto;
 }
 
-main section .underline hr {
+main section .underline>hr {
     position: absolute;
     width: 100%;
     top: -2px;
@@ -328,8 +328,7 @@ main #aboutus .imagen:hover :is(.marco, .marco img) {
 }
 
 .ourblog figure div {
-    background-color: var(--colorprincipal);
-    opacity: 85%;
+    background-color: rgba(250, 87, 58, 0.6);
     position: absolute;
     width: 60px;
     height: 60px;
@@ -354,12 +353,78 @@ main #aboutus .imagen:hover :is(.marco, .marco img) {
     font-weight: 700;
 }
 
-
-
-
-
-
 /* fin our blogs */
+
+/* inicio menu */
+
+#menu {
+    background-color: var(--colorsecundario);
+}
+
+#menu .container :is(h2, a, h3, p, h4) {
+    color: white;
+}
+
+.container .lista {
+    padding: 30px 10px;
+}
+
+.lista a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    background-color: transparent;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.lista li {
+    margin-left: 10px;
+}
+
+.lista a:hover {
+    background-color: var(--colorprincipal);
+    border-radius: 5px;
+}
+
+#menu .container div h3 {
+    font-weight: 700;
+}
+
+#menu .container .offers hr {
+    display: inline-block;
+    margin: 0 auto;
+    border-color: var(--colorprincipal);
+    width: 50px;
+}
+
+#menu .container .offers p {
+    color: #aaa;
+    margin-top: 10px;
+}
+
+#menu .container article {
+    padding: 20px;
+}
+
+#menu .container div h4 {
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#menu .container div h4 span {
+    color: var(--colorprincipal);
+}
+
+#menu .container article a {
+    text-decoration: none;
+    color: var(--colorprincipal);
+    font-weight: 700;
+}
+
+/* fin menu */
 
 /* inicio footer */
 footer {
@@ -475,5 +540,40 @@ footer a:hover {
         width: 33.333%;
         border: 15px solid white;
     }
+
+
+    #menu .container .grid {
+        display: flex;
+
+    }
+
+    #menu .grid .bloque1 {
+        width: 30%;
+
+    }
+
+    #menu .grid .bloque2 {
+        width: 70%;
+
+    }
+
+    #menu .bloque2 article {
+        display: flex;
+        padding: 30px 30px;
+        height: 150px;
+
+    }
+
+    #menu .bloque2 figure {
+        padding-right: 20px;
+        height: 200px;
+        width: 200px;
+        text-align: center;
+    }
+
+    #menu .bloque1 .offers {
+        padding-top: 100px;
+    }
+
 
 }
